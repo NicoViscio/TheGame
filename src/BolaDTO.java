@@ -6,6 +6,7 @@ public class BolaDTO {
     private int diametro;
     private Color color;
 
+    //  Porpiedades de la bola
     public BolaDTO(int x, int y, int diametro, Color color) {
         this.x = x;
         this.y = y;
@@ -13,7 +14,7 @@ public class BolaDTO {
         this.color = color;
     }
 
-    // Getters and setters
+    // Getters y setters
     public int getX() { return x; }
     public void setX(int x) { this.x = x; }
     public int getY() { return y; }

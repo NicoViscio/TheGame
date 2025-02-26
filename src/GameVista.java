@@ -7,7 +7,7 @@ public class GameVista extends JFrame {
     private GameControlPanel controlPanel;
 
     public GameVista() {
-        this.setTitle("Bouncing Balls");
+        this.setTitle("Bolas");
         this.setSize(800, 700);
         this.setLayout(null);
 
@@ -20,7 +20,7 @@ public class GameVista extends JFrame {
         this.add(canvas);
         this.add(controlPanel);
 
-        // Add window listener for cleanup
+        // Windows Listener para limpiar la pantalla
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

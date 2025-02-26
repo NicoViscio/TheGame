@@ -23,6 +23,7 @@ public class GameModel {
         bola.start();
     }
 
+    // Especificamos que solo queremos objetos de tipo BolaDTO
     public List<BolaDTO> getBolas() {
         List<BolaDTO> bolasDTOs = new ArrayList<>();
         for (Bola bola : bolas) {

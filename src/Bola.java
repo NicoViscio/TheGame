@@ -22,15 +22,6 @@ public class Bola implements Runnable {
         thread.start();
     }
 
-    public void stop() {
-        running = false;
-        try {
-            thread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
     @Override
     public void run() {
         while (running) {

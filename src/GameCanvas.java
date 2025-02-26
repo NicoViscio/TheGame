@@ -37,7 +37,6 @@ public class GameCanvas extends Canvas {
                 bufferGraphics.dispose();
             }
             bufferGraphics = (Graphics2D) buffer.getGraphics();
-            // Enable antialiasing for smoother graphics
             bufferGraphics.setRenderingHint(
                     RenderingHints.KEY_ANTIALIASING,
                     RenderingHints.VALUE_ANTIALIAS_ON
